@@ -13,15 +13,6 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
 
-# Environment variables for the application
-env:
-  # PeerDB connection configuration
-  HOST: "your-actual-db-host"          # Replace with your actual host
-  PORT: "5432"
-  USERNAME: "your-actual-username"     # Replace with your actual username  
-  PASSWORD: "your-actual-password"     # Replace with your actual password (better to use secrets)
-  DATABASE: "peerdb_stats"
-
 # External secrets or configmaps to inject environment variables from
 # This allows you to use Kubernetes Secrets or ConfigMaps for sensitive data
 envFrom:
