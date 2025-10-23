@@ -48,7 +48,11 @@ spec:
           env:
             {{- range $key, $value := .Values.env }}
             - name: {{ $key }}
+              {{- if kindIs "map" $value }}
+              {{- toYaml $value | nindent 14 }}
+              {{- else }}
               value: {{ $value | quote }}
+              {{- end }}
             {{- end }}
           {{- end }}
           {{- if .Values.envFrom }}

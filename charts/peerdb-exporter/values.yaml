@@ -11,7 +11,7 @@ image:
   # This sets the pull policy for images.
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: ""
 
 # External secrets or configmaps to inject environment variables from
 # This allows you to use Kubernetes Secrets or ConfigMaps for sensitive data
