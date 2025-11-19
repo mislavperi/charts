@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   peerdb-exporter:
   - apiVersion: v2
+    appVersion: 0.5.8
+    created: "2025-11-19T09:04:09.482036786Z"
+    description: A Helm chart for Kubernetes
+    digest: c74a24a26cbb8378161a58c4ee0f51e2a48b4c04c982eac1a64a5790345632d3
+    name: peerdb-exporter
+    type: application
+    urls:
+    - https://github.com/mislavperi/charts/releases/download/peerdb-exporter-0.5.9/peerdb-exporter-0.5.9.tgz
+    version: 0.5.9
+  - apiVersion: v2
     appVersion: 0.5.7
     created: "2025-11-16T16:40:05.992114338Z"
     description: A Helm chart for Kubernetes
@@ -81,4 +91,4 @@ entries:
     urls:
     - https://github.com/mislavperi/charts/releases/download/peerdb-exporter-0.5.1/peerdb-exporter-0.5.1.tgz
     version: 0.5.1
-generated: "2025-11-16T16:40:05.992153671Z"
+generated: "2025-11-19T09:04:09.482069798Z"
